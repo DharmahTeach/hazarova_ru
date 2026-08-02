@@ -1,0 +1,826 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ольга В. Захарова — исследователь, доцент, ТюмГУ</title>
+  <meta name="description" content="Персональный академический профиль Ольги Владимировны Захаровой — кандидат философских наук, доцент ТюмГУ, руководитель Green Solutions Lab. Устойчивое развитие, экологические практики, зелёные трансформации.">
+  <meta name="keywords" content="Захарова Ольга, ТюмГУ, Green Solutions Lab, устойчивое развитие, экологические практики, кандидат философских наук, environmental ethics, green practices, low-carbon development, social practices, Scopus">
+  <meta name="author" content="Ольга Владимировна Захарова">
+  <link rel="canonical" href="https://hazarova.ru/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="profile">
+  <meta property="og:title" content="Ольга В. Захарова — исследователь, доцент, ТюмГУ">
+  <meta property="og:description" content="Кандидат философских наук, доцент ТюмГУ. Устойчивое развитие, экологические практики, Green Solutions Lab.">
+  <meta property="og:url" content="https://hazarova.ru/">
+  <meta property="og:site_name" content="Ольга В. Захарова">
+  <meta property="og:locale" content="ru_RU">
+  <meta property="og:image" content="https://hazarova.ru/photo.jpg">
+
+  <!-- Favicon SVG inline -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='12' fill='%231d3557'/><text x='32' y='44' font-size='36' font-family='Georgia,serif' fill='%23f1faee' text-anchor='middle'>З</text></svg>">
+
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Ольга Владимировна Захарова",
+    "givenName": "Ольга",
+    "familyName": "Захарова",
+    "jobTitle": "Доцент кафедры государственного и муниципального управления",
+    "honorificSuffix": "канд. филос. наук",
+    "url": "https://hazarova.ru",
+    "image": "https://hazarova.ru/photo.jpg",
+    "sameAs": [
+      "https://orcid.org/0000-0002-1404-4915",
+      "https://www.scopus.com/authid/detail.uri?authorId=57528481200",
+      "https://www.researchgate.net/profile/Olga-Zakharova-2",
+      "https://vestnik.utmn.ru/sociology/list-of-authors/110022/",
+      "https://vk.com/greennetworking"
+    ],
+    "affiliation": {
+      "@type": "EducationalOrganization",
+      "name": "Тюменский государственный университет",
+      "url": "https://www.utmn.ru"
+    },
+    "knowsAbout": [
+      "Устойчивое развитие",
+      "Экологические практики",
+      "Зелёные трансформации",
+      "Философия экологии",
+      "Environmental ethics",
+      "Environmental aesthetics",
+      "Low-carbon development",
+      "Big Data analysis of social practices"
+    ]
+  }
+  </script>
+
+  <style>
+    /* ===== Reset & Base ===== */
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+    :root {
+      --color-bg: #fafafa;
+      --color-surface: #ffffff;
+      --color-text: #1a1a2e;
+      --color-text-secondary: #4a4a5a;
+      --color-accent: #1d3557;
+      --color-accent-light: #2a9d8f;
+      --color-border: #e0e0e0;
+      --color-tag-bg: #eef2f7;
+      --font-heading: Georgia, "Times New Roman", "Noto Serif", serif;
+      --font-body: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      --max-width: 820px;
+      --section-padding: 4.5rem 0;
+    }
+
+    html { scroll-behavior: smooth; scroll-padding-top: 70px; }
+
+    body {
+      font-family: var(--font-body);
+      font-size: 1rem;
+      line-height: 1.7;
+      color: var(--color-text);
+      background: var(--color-bg);
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* ===== Navigation ===== */
+    .nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 100;
+      background: rgba(255, 255, 255, 0.92);
+      backdrop-filter: blur(10px);
+      border-bottom: 1px solid var(--color-border);
+    }
+
+    .nav__inner {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 0 1.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 58px;
+    }
+
+    .nav__name {
+      font-family: var(--font-heading);
+      font-size: 1.05rem;
+      color: var(--color-accent);
+      text-decoration: none;
+      font-weight: 700;
+      letter-spacing: -0.01em;
+    }
+
+    .nav__links {
+      display: flex;
+      gap: 1.6rem;
+      list-style: none;
+      align-items: center;
+    }
+
+    .nav__links a {
+      font-size: 0.85rem;
+      color: var(--color-text-secondary);
+      text-decoration: none;
+      transition: color 0.15s;
+      letter-spacing: 0.01em;
+    }
+
+    .nav__links a:hover { color: var(--color-accent); }
+
+    .nav__burger {
+      display: none;
+      background: none;
+      border: none;
+      cursor: pointer;
+      width: 28px;
+      height: 20px;
+      position: relative;
+      flex-shrink: 0;
+    }
+
+    .nav__burger span,
+    .nav__burger::before,
+    .nav__burger::after {
+      content: "";
+      display: block;
+      position: absolute;
+      left: 0;
+      width: 100%;
+      height: 2px;
+      background: var(--color-accent);
+      transition: transform 0.25s, opacity 0.2s;
+    }
+
+    .nav__burger::before { top: 0; }
+    .nav__burger span { top: 9px; }
+    .nav__burger::after { top: 18px; }
+
+    .nav__burger.open::before { transform: translateY(9px) rotate(45deg); }
+    .nav__burger.open span { opacity: 0; }
+    .nav__burger.open::after { transform: translateY(-9px) rotate(-45deg); }
+
+    /* ===== Layout ===== */
+    .container {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 0 1.5rem;
+    }
+
+    main { padding-top: 58px; }
+
+    section { padding: var(--section-padding); }
+
+    section + section { border-top: 1px solid var(--color-border); }
+
+    /* ===== Typography ===== */
+    h1 {
+      font-family: var(--font-heading);
+      font-size: clamp(1.8rem, 4vw, 2.4rem);
+      font-weight: 700;
+      color: var(--color-accent);
+      line-height: 1.25;
+      letter-spacing: -0.02em;
+    }
+
+    h2 {
+      font-family: var(--font-heading);
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: var(--color-accent);
+      margin-bottom: 1.5rem;
+      padding-top: 0.5rem;
+      letter-spacing: -0.01em;
+    }
+
+    h3 {
+      font-family: var(--font-heading);
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: var(--color-text);
+      margin-bottom: 0.5rem;
+    }
+
+    p { margin-bottom: 1rem; }
+    p:last-child { margin-bottom: 0; }
+
+    a { color: var(--color-accent-light); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    /* ===== Hero ===== */
+    .hero {
+      padding: 5rem 0 4rem;
+      display: flex;
+      gap: 2.5rem;
+      align-items: flex-start;
+    }
+
+    .hero__photo {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      flex-shrink: 0;
+      overflow: hidden;
+      background: var(--color-accent);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .hero__photo img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    .hero__photo-placeholder {
+      font-family: var(--font-heading);
+      font-size: 3rem;
+      color: #f1faee;
+      font-weight: 700;
+      user-select: none;
+    }
+
+    .hero__info { flex: 1; min-width: 0; }
+
+    .hero__subtitle {
+      font-size: 1.05rem;
+      color: var(--color-text-secondary);
+      margin-top: 0.6rem;
+      line-height: 1.6;
+    }
+
+    .hero__affiliation {
+      font-size: 0.95rem;
+      color: var(--color-text-secondary);
+      margin-top: 0.4rem;
+    }
+
+    .hero__focus {
+      margin-top: 1.2rem;
+      font-size: 0.95rem;
+      color: var(--color-text);
+      line-height: 1.65;
+      max-width: 560px;
+    }
+
+    /* ===== About ===== */
+    .about p { color: var(--color-text); }
+
+    /* ===== Research Interests ===== */
+    .interests__list {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.6rem;
+    }
+
+    .interests__list li {
+      background: var(--color-tag-bg);
+      padding: 0.45rem 1rem;
+      border-radius: 6px;
+      font-size: 0.9rem;
+      color: var(--color-text);
+      line-height: 1.4;
+    }
+
+    /* ===== Publications ===== */
+    .pub-list { list-style: none; }
+
+    .pub-list li {
+      padding: 1rem 0;
+      border-bottom: 1px solid var(--color-border);
+    }
+
+    .pub-list li:last-child { border-bottom: none; }
+
+    .pub__title {
+      font-weight: 600;
+      color: var(--color-text);
+      line-height: 1.5;
+    }
+
+    .pub__meta {
+      font-size: 0.88rem;
+      color: var(--color-text-secondary);
+      margin-top: 0.3rem;
+    }
+
+    .pub__link {
+      display: inline-block;
+      margin-top: 0.3rem;
+      font-size: 0.85rem;
+    }
+
+    /* ===== Projects ===== */
+    .project-card {
+      background: var(--color-surface);
+      border: 1px solid var(--color-border);
+      border-radius: 8px;
+      padding: 1.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .project-card p {
+      font-size: 0.93rem;
+      color: var(--color-text-secondary);
+    }
+
+    .project-card__role {
+      font-size: 0.85rem;
+      color: var(--color-accent-light);
+      margin-top: 0.5rem;
+      font-weight: 600;
+    }
+
+    /* ===== Lab ===== */
+    .lab__activities {
+      list-style: none;
+      margin-top: 1rem;
+    }
+
+    .lab__activities li {
+      padding: 0.4rem 0;
+      padding-left: 1.2rem;
+      position: relative;
+      font-size: 0.93rem;
+      color: var(--color-text);
+    }
+
+    .lab__activities li::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0.75rem;
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: var(--color-accent-light);
+    }
+
+    .lab__links {
+      margin-top: 1.2rem;
+      display: flex;
+      gap: 1.2rem;
+      flex-wrap: wrap;
+    }
+
+    .lab__links a {
+      font-size: 0.9rem;
+      font-weight: 600;
+    }
+
+    /* ===== Teaching ===== */
+    .teaching__list {
+      list-style: none;
+    }
+
+    .teaching__list li {
+      padding: 0.4rem 0;
+      padding-left: 1.2rem;
+      position: relative;
+      font-size: 0.93rem;
+    }
+
+    .teaching__list li::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0.75rem;
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: var(--color-accent);
+    }
+
+    /* ===== Contacts ===== */
+    .contacts__grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 0.8rem;
+    }
+
+    .contacts__item {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      padding: 0.7rem 1rem;
+      background: var(--color-surface);
+      border: 1px solid var(--color-border);
+      border-radius: 6px;
+      font-size: 0.9rem;
+      transition: border-color 0.15s;
+    }
+
+    .contacts__item:hover { border-color: var(--color-accent-light); }
+
+    .contacts__item-label {
+      font-weight: 600;
+      color: var(--color-text);
+      white-space: nowrap;
+    }
+
+    .contacts__item a {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    /* ===== Footer ===== */
+    footer {
+      border-top: 1px solid var(--color-border);
+      padding: 2rem 0;
+      text-align: center;
+      font-size: 0.82rem;
+      color: var(--color-text-secondary);
+    }
+
+    /* ===== Responsive ===== */
+    @media (max-width: 768px) {
+      :root { --section-padding: 3rem 0; }
+
+      .hero {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 3.5rem 0 3rem;
+      }
+
+      .hero__photo { width: 130px; height: 130px; }
+      .hero__focus { margin-left: auto; margin-right: auto; }
+
+      .nav__links {
+        display: none;
+        position: absolute;
+        top: 58px;
+        left: 0;
+        right: 0;
+        background: rgba(255, 255, 255, 0.97);
+        backdrop-filter: blur(10px);
+        flex-direction: column;
+        padding: 1rem 1.5rem;
+        gap: 0;
+        border-bottom: 1px solid var(--color-border);
+      }
+
+      .nav__links.open { display: flex; }
+
+      .nav__links li { width: 100%; }
+
+      .nav__links a {
+        display: block;
+        padding: 0.7rem 0;
+        font-size: 0.95rem;
+        border-bottom: 1px solid var(--color-border);
+      }
+
+      .nav__links li:last-child a { border-bottom: none; }
+
+      .nav__burger { display: block; }
+
+      .contacts__grid { grid-template-columns: 1fr; }
+    }
+
+    @media (max-width: 480px) {
+      h1 { font-size: 1.5rem; }
+      h2 { font-size: 1.25rem; }
+      .container { padding: 0 1rem; }
+    }
+
+    /* ===== Print ===== */
+    @media print {
+      .nav, .nav__burger { display: none; }
+      main { padding-top: 0; }
+      section { padding: 1.5rem 0; break-inside: avoid; }
+      body { font-size: 11pt; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="nav" role="banner">
+    <nav class="nav__inner" aria-label="Основная навигация">
+      <a href="#" class="nav__name">О. В. Захарова</a>
+      <button class="nav__burger" aria-label="Меню" aria-expanded="false">
+        <span></span>
+      </button>
+      <ul class="nav__links" role="list">
+        <li><a href="#about">Профиль</a></li>
+        <li><a href="#interests">Интересы</a></li>
+        <li><a href="#publications">Публикации</a></li>
+        <li><a href="#projects">Проекты</a></li>
+        <li><a href="#lab">Лаборатория</a></li>
+        <li><a href="#teaching">Преподавание</a></li>
+        <li><a href="#contacts">Контакты</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- Hero -->
+    <section class="hero container" id="hero">
+      <div class="hero__photo">
+        <img src="photo.jpg" alt="Ольга Владимировна Захарова"
+             onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+        <span class="hero__photo-placeholder" style="display:none;">ОЗ</span>
+      </div>
+      <div class="hero__info">
+        <h1>Ольга Владимировна Захарова</h1>
+        <p class="hero__subtitle">
+          Кандидат философских наук (PhD) &middot; Доцент<br>
+          Учёный года Тюменской области в гуманитарных науках (2025)
+        </p>
+        <p class="hero__affiliation">
+          Кафедра государственного и муниципального управления<br>
+          <a href="https://www.utmn.ru" target="_blank" rel="noopener">Тюменский государственный университет</a>
+        </p>
+        <p class="hero__focus">
+          Устойчивое развитие территорий, климатическая политика, экологизация
+          социально-экономических процессов. Руководитель стратегического проекта
+          «Тюменский карбоновый полигон».
+        </p>
+      </div>
+    </section>
+
+    <!-- About / Research Profile -->
+    <section class="about container" id="about">
+      <h2>Исследовательский профиль</h2>
+      <p>
+        Ольга Владимировна Захарова — доцент кафедры государственного и муниципального управления
+        Тюменского государственного университета, руководитель проектного офиса
+        <em>Green Solutions Lab</em> — междисциплинарной научно-прикладной лаборатории,
+        работающей на стыке философии, устойчивого развития, общественных практик
+        и управления экологическими проектами. В ТюмГУ с 1997 года: сначала на кафедре философии,
+        с 2019 года — на кафедре государственного и муниципального управления.
+      </p>
+      <p>
+        Научная деятельность сосредоточена на экологизации социально-экономического развития,
+        изучении повседневных «зелёных» практик, анализе взаимосвязей общества и природных систем,
+        а также на разработке моделей устойчивой трансформации территорий с учётом
+        климатических и социальных вызовов. В последние годы активно применяет методы
+        компьютерных наук — Big Data анализ, обработку естественного языка (NLP)
+        и машинное обучение — для детекции и классификации экологических практик
+        в социальных медиа.
+      </p>
+      <p>
+        Руководит стратегическим проектом ТюмГУ «Тюменский карбоновый полигон» (FEWZ-2024−0016).
+        Под её руководством карбоновый полигон «Кучак» трансформировался из исследовательской
+        площадки в научно-прикладную лабораторию, где данные мониторинга парниковых газов
+        используются для управленческих решений. Среди результатов — аналитические предложения
+        для регионального плана адаптации к изменениям климата и раздела «Экология» в Стратегии
+        развития Тюменской области до 2050 года, а также цифровые продукты: ИИ-консультант
+        для оценки паводковых рисков и сервис климатической аналитики TrendCarbon.
+      </p>
+      <p>
+        Автор более 26 научных публикаций, включая статьи в международных рецензируемых
+        журналах Scopus и Web of Science (Sustainability, BRICS Law Journal, Ethics, Policy
+        and Environment, Applied Sciences и др.). Рецензент для журналов Applied Sciences и SoftwareX.
+        В 2025 году удостоена звания «Учёный года» в номинации «Гуманитарные науки»
+        по итогам конкурса Департамента образования и науки Тюменской области
+        «Лидер года в научно-инновационной деятельности».
+      </p>
+    </section>
+
+    <!-- Research Interests -->
+    <section class="container" id="interests">
+      <h2>Научные интересы</h2>
+      <ul class="interests__list" role="list">
+        <li>Environmental ethics &amp; aesthetics</li>
+        <li>Green practices &amp; scaling</li>
+        <li>Social practices for climate mitigation</li>
+        <li>Low-carbon development</li>
+        <li>Устойчивое развитие территорий</li>
+        <li>Зелёный регион как концепция пространственного развития</li>
+        <li>Моделирование социально-экологических процессов</li>
+        <li>Big Data анализ экологических онлайн-сообществ</li>
+        <li>NLP и машинное обучение для детекции зелёных практик</li>
+        <li>Экологическая мудрость коренных народов Западной Сибири</li>
+        <li>Взаимодействие государственных институтов с практиками устойчивого развития</li>
+        <li>Оценка климатической уязвимости территорий</li>
+      </ul>
+    </section>
+
+    <!-- Publications -->
+    <section class="container" id="publications">
+      <h2>Избранные публикации</h2>
+      <ol class="pub-list">
+        <li>
+          <div class="pub__title">Social Practices for Climate Mitigation: A Big Data Analysis of Russia's Environmental Online Communities</div>
+          <div class="pub__meta">Sustainability, 2025, 17(22), 10053</div>
+          <a class="pub__link" href="https://doi.org/10.3390/su172210053" target="_blank" rel="noopener">DOI &rarr;</a>
+        </li>
+        <li>
+          <div class="pub__title">Risk Assessment of Socio-Economic Vulnerability to Climate Change: Case Study of Tyumen Region</div>
+          <div class="pub__meta">World, 2025, 6(1), 6</div>
+          <a class="pub__link" href="https://doi.org/10.3390/world6010006" target="_blank" rel="noopener">DOI &rarr;</a>
+        </li>
+        <li>
+          <div class="pub__title">Enhancing Green Practice Detection in Social Media with Paraphrasing-Based Data Augmentation</div>
+          <div class="pub__meta">Big Data and Cognitive Computing, 2025, 9(4), 81</div>
+          <a class="pub__link" href="https://doi.org/10.3390/bdcc9040081" target="_blank" rel="noopener">DOI &rarr;</a>
+        </li>
+        <li>
+          <div class="pub__title">Bridging the Gap: Social Practices of a Regional Operator for Municipal Solid Waste</div>
+          <div class="pub__meta">The Journal of Sociology and Social Anthropology, 2025, 28(3)</div>
+          <a class="pub__link" href="https://doi.org/10.31119/jssa.2025.28.3.5" target="_blank" rel="noopener">DOI &rarr;</a>
+        </li>
+        <li>
+          <div class="pub__title">Green Waste Practices as Climate Adaptation and Mitigation Actions: Grassroots Initiatives in Russia</div>
+          <div class="pub__meta">BRICS Law Journal, 2024, 11(4), 145–167</div>
+          <a class="pub__link" href="https://doi.org/10.21684/2412-2343-2024-11-4-145-167" target="_blank" rel="noopener">DOI &rarr;</a>
+        </li>
+        <li>
+          <div class="pub__title">GreenRu: A Russian Dataset for Detecting Mentions of Green Practices in Social Media Posts</div>
+          <div class="pub__meta">Applied Sciences, 2024, 14(11), 4466</div>
+          <a class="pub__link" href="https://doi.org/10.3390/app14114466" target="_blank" rel="noopener">DOI &rarr;</a>
+        </li>
+        <li>
+          <div class="pub__title">Environmental Education: Ecological Wisdom of Indigenous Peoples in Western Siberia</div>
+          <div class="pub__meta">Sustainability, 2021, 13(7), 4040</div>
+          <a class="pub__link" href="https://doi.org/10.3390/su13074040" target="_blank" rel="noopener">DOI &rarr;</a>
+        </li>
+        <li>
+          <div class="pub__title">Traditional Environmental Values as the Frameworks for Environmental Legislation in Russia</div>
+          <div class="pub__meta">Ethics, Policy and Environment, 2020</div>
+          <a class="pub__link" href="https://doi.org/10.1080/21550085.2020.1746004" target="_blank" rel="noopener">DOI &rarr;</a>
+        </li>
+      </ol>
+      <p style="margin-top:1.2rem; font-size:0.88rem; color:var(--color-text-secondary);">
+        Всего 26+ публикаций. Полный список:
+        <a href="https://orcid.org/0000-0002-1404-4915" target="_blank" rel="noopener">ORCID</a> &middot;
+        <a href="https://www.scopus.com/authid/detail.uri?authorId=57528481200" target="_blank" rel="noopener">Scopus</a> &middot;
+        <a href="https://www.researchgate.net/profile/Olga-Zakharova-2" target="_blank" rel="noopener">ResearchGate</a>
+      </p>
+    </section>
+
+    <!-- Projects / Grants -->
+    <section class="container" id="projects">
+      <h2>Проекты и гранты</h2>
+
+      <article class="project-card">
+        <h3>Тюменский карбоновый полигон «Кучак»</h3>
+        <p>
+          Стратегический проект ТюмГУ (FEWZ-2024−0016). Научно-прикладная лаборатория
+          мониторинга парниковых газов и экосистемных процессов. Данные полигона используются
+          для корректировки регионального плана адаптации к изменениям климата
+          и Стратегии развития Тюменской области до 2050 года. Разработаны цифровые продукты:
+          ИИ-консультант для оценки паводковых рисков и сервис климатической аналитики TrendCarbon.
+        </p>
+        <div class="project-card__role">Руководитель проекта</div>
+      </article>
+
+      <article class="project-card">
+        <h3>«Зелёный регион» как концепция пространственного развития</h3>
+        <p>
+          Системный анализ факторов территориального развития в контексте
+          концепции «зелёного региона». Разработка комплексного подхода
+          к оценке экологического потенциала и устойчивой трансформации территорий.
+        </p>
+        <div class="project-card__role">Грант РФФИ, 2020–2023</div>
+      </article>
+
+      <article class="project-card">
+        <h3>Greens vs Greens: дискурс-анализ социальных сетей</h3>
+        <p>
+          Исследование экологического дискурса в социальных сетях методами
+          компьютерной лингвистики и Big Data анализа. Выявление и классификация
+          зелёных практик в онлайн-сообществах.
+        </p>
+        <div class="project-card__role">Грант РФФИ, 2021–2022</div>
+      </article>
+
+      <article class="project-card">
+        <h3>Центр оценки парниковых газов</h3>
+        <p>
+          Участие в создании центра оценки парниковых газов при ТюмГУ —
+          научно-инфраструктурной площадки для мониторинга выбросов
+          и разработки низкоуглеродных стратегий развития территорий.
+        </p>
+        <div class="project-card__role">ТюмГУ, участник исследовательской группы</div>
+      </article>
+
+      <article class="project-card">
+        <h3>GreenRu: датасет для детекции зелёных практик</h3>
+        <p>
+          Создание русскоязычного датасета и инструментов машинного обучения
+          для автоматического обнаружения упоминаний экологических практик
+          в публикациях социальных медиа.
+        </p>
+        <div class="project-card__role">Руководитель направления</div>
+      </article>
+    </section>
+
+    <!-- Green Solutions Lab -->
+    <section class="container" id="lab">
+      <h2>Green Solutions Lab</h2>
+      <p>
+        <strong>Green Solutions Lab</strong> — проектный офис при Тюменском государственном
+        университете. Научно-исследовательская команда, работающая над разработкой моделей
+        устойчивой трансформации территорий, оценкой экологического потенциала
+        и внедрением социально-экологических практик.
+      </p>
+
+      <h3 style="margin-top:1.5rem;">Направления деятельности</h3>
+      <ul class="lab__activities" role="list">
+        <li>Экологический аудит территорий</li>
+        <li>Разработка цифровых инструментов для анализа зелёных практик</li>
+        <li>Участие в создании центра оценки парниковых газов и низкоуглеродных стратегий</li>
+        <li>Научно-практические мероприятия и публичный диалог об устойчивом развитии</li>
+      </ul>
+
+      <div class="lab__links">
+        <a href="https://www.utmn.ru/igip/about/struktura-instituta/tsentr-innovatsionnogo-proektirovaniya-i-prikladnykh-issledovaniy/laboratoriya-4-bio/green-solution-lab/" target="_blank" rel="noopener">Страница на сайте ТюмГУ &rarr;</a>
+        <a href="https://vk.com/greennetworking" target="_blank" rel="noopener">Сообщество ВКонтакте &rarr;</a>
+      </div>
+    </section>
+
+    <!-- Teaching -->
+    <section class="container" id="teaching">
+      <h2>Преподавание и академическая деятельность</h2>
+      <ul class="teaching__list" role="list">
+        <li>Преподавание дисциплин по государственному и муниципальному управлению, устойчивому развитию</li>
+        <li>Научное руководство студенческими и аспирантскими исследованиями</li>
+        <li>Участие в международных научных форумах и конференциях (в т.ч. Siberium, ISPRAS)</li>
+        <li>Рецензирование для международных журналов (Applied Sciences, SoftwareX)</li>
+        <li>Организация научно-практических мероприятий по экологической грамотности</li>
+      </ul>
+    </section>
+
+    <!-- Contacts -->
+    <section class="container" id="contacts">
+      <h2>Контакты и академические профили</h2>
+      <div class="contacts__grid">
+        <div class="contacts__item">
+          <span class="contacts__item-label">ORCID</span>
+          <a href="https://orcid.org/0000-0002-1404-4915" target="_blank" rel="noopener">0000-0002-1404-4915</a>
+        </div>
+        <div class="contacts__item">
+          <span class="contacts__item-label">Scopus</span>
+          <a href="https://www.scopus.com/authid/detail.uri?authorId=57528481200" target="_blank" rel="noopener">Author ID: 57528481200</a>
+        </div>
+        <div class="contacts__item">
+          <span class="contacts__item-label">ResearchGate</span>
+          <a href="https://www.researchgate.net/profile/Olga-Zakharova-2" target="_blank" rel="noopener">Olga Zakharova</a>
+        </div>
+        <div class="contacts__item">
+          <span class="contacts__item-label">Вестник ТюмГУ</span>
+          <a href="https://vestnik.utmn.ru/sociology/list-of-authors/110022/" target="_blank" rel="noopener">Профиль автора</a>
+        </div>
+        <div class="contacts__item">
+          <span class="contacts__item-label">Университет</span>
+          <a href="https://www.utmn.ru" target="_blank" rel="noopener">utmn.ru</a>
+        </div>
+        <div class="contacts__item">
+          <span class="contacts__item-label">ВКонтакте</span>
+          <a href="https://vk.com/greennetworking" target="_blank" rel="noopener">Green Networking</a>
+        </div>
+        <div class="contacts__item">
+          <span class="contacts__item-label">Email</span>
+          <a href="mailto:o.v.zakharova@utmn.ru">o.v.zakharova@utmn.ru</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="container">
+      &copy; 2026 Ольга В. Захарова. Тюменский государственный университет.
+    </div>
+  </footer>
+
+  <!-- Minimal JS: burger menu + photo fallback -->
+  <script>
+    (function() {
+      var burger = document.querySelector('.nav__burger');
+      var links = document.querySelector('.nav__links');
+      if (burger && links) {
+        burger.addEventListener('click', function() {
+          var open = links.classList.toggle('open');
+          burger.classList.toggle('open', open);
+          burger.setAttribute('aria-expanded', open);
+        });
+        links.addEventListener('click', function(e) {
+          if (e.target.tagName === 'A') {
+            links.classList.remove('open');
+            burger.classList.remove('open');
+            burger.setAttribute('aria-expanded', 'false');
+          }
+        });
+      }
+    })();
+  </script>
+
+</body>
+</html>
