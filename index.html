@@ -4,59 +4,76 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ольга В. Захарова — исследователь, доцент, ТюмГУ</title>
-  <meta name="description" content="Персональный академический профиль Ольги Владимировны Захаровой — кандидат философских наук, доцент ТюмГУ, руководитель Green Solutions Lab. Устойчивое развитие, экологические практики, зелёные трансформации.">
-  <meta name="keywords" content="Захарова Ольга, ТюмГУ, Green Solutions Lab, устойчивое развитие, экологические практики, кандидат философских наук, environmental ethics, green practices, low-carbon development, social practices, Scopus">
+  <meta name="description" content="Доцент ТюмГУ, канд. филос. наук. Green Solutions Lab: устойчивое развитие и экологические практики.">
   <meta name="author" content="Ольга Владимировна Захарова">
   <meta name="robots" content="index, follow, max-image-preview:large">
   <meta name="yandex-verification" content="76c296326f84e9b2">
   <link rel="canonical" href="https://hazarova.ru/">
 
-  <!-- Open Graph -->
   <meta property="og:type" content="profile">
   <meta property="og:title" content="Ольга В. Захарова — исследователь, доцент, ТюмГУ">
-  <meta property="og:description" content="Кандидат философских наук, доцент ТюмГУ. Устойчивое развитие, экологические практики, Green Solutions Lab.">
+  <meta property="og:description" content="Доцент ТюмГУ, канд. филос. наук. Green Solutions Lab, устойчивое развитие.">
   <meta property="og:url" content="https://hazarova.ru/">
   <meta property="og:site_name" content="Ольга В. Захарова">
   <meta property="og:locale" content="ru_RU">
-  <meta property="og:image" content="https://hazarova.ru/photo.jpg">
+  <meta property="og:image" content="https://hazarova.ru/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Ольга В. Захарова — исследователь, доцент, ТюмГУ">
+  <meta name="twitter:description" content="Доцент ТюмГУ, канд. филос. наук. Green Solutions Lab, устойчивое развитие.">
+  <meta name="twitter:image" content="https://hazarova.ru/og-image.jpg">
 
   <!-- Favicon -->
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link rel="alternate icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="preload" as="image" href="/photo.webp" type="image/webp">
 
-  <!-- JSON-LD Structured Data -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "Person",
-    "name": "Ольга Владимировна Захарова",
-    "givenName": "Ольга",
-    "familyName": "Захарова",
-    "jobTitle": "Доцент кафедры государственного и муниципального управления",
-    "honorificSuffix": "канд. филос. наук",
-    "url": "https://hazarova.ru/",
-    "image": "https://hazarova.ru/photo.jpg",
-    "sameAs": [
-      "https://orcid.org/0000-0002-1404-4915",
-      "https://www.scopus.com/authid/detail.uri?authorId=57528481200",
-      "https://www.researchgate.net/profile/Olga-Zakharova-2",
-      "https://vestnik.utmn.ru/sociology/list-of-authors/110022/",
-      "https://vk.com/greennetworking"
-    ],
-    "affiliation": {
-      "@type": "EducationalOrganization",
-      "name": "Тюменский государственный университет",
-      "url": "https://www.utmn.ru"
-    },
-    "knowsAbout": [
-      "Устойчивое развитие",
-      "Экологические практики",
-      "Зелёные трансформации",
-      "Философия экологии",
-      "Environmental ethics",
-      "Environmental aesthetics",
-      "Low-carbon development",
-      "Big Data analysis of social practices"
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://hazarova.ru/#website",
+        "url": "https://hazarova.ru/",
+        "name": "Ольга В. Захарова",
+        "inLanguage": "ru"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://hazarova.ru/#person",
+        "name": "Ольга Владимировна Захарова",
+        "givenName": "Ольга",
+        "familyName": "Захарова",
+        "jobTitle": "Доцент кафедры государственного и муниципального управления",
+        "honorificSuffix": "канд. филос. наук",
+        "url": "https://hazarova.ru/",
+        "image": "https://hazarova.ru/photo.jpg",
+        "sameAs": [
+          "https://orcid.org/0000-0002-1404-4915",
+          "https://www.scopus.com/authid/detail.uri?authorId=57528481200",
+          "https://www.researchgate.net/profile/Olga-Zakharova-2",
+          "https://vestnik.utmn.ru/sociology/list-of-authors/110022/",
+          "https://vk.com/greennetworking"
+        ],
+        "affiliation": {
+          "@type": "EducationalOrganization",
+          "name": "Тюменский государственный университет",
+          "url": "https://www.utmn.ru"
+        },
+        "knowsAbout": [
+          "Устойчивое развитие",
+          "Экологические практики",
+          "Зелёные трансформации",
+          "Философия экологии",
+          "Environmental ethics",
+          "Environmental aesthetics",
+          "Low-carbon development",
+          "Big Data analysis of social practices"
+        ]
+      }
     ]
   }
   </script>
@@ -236,6 +253,12 @@
       display: flex;
       align-items: center;
       justify-content: center;
+    }
+
+    .hero__photo picture {
+      width: 100%;
+      height: 100%;
+      display: block;
     }
 
     .hero__photo img {
@@ -526,7 +549,7 @@
   <!-- Navigation -->
   <header class="nav" role="banner">
     <nav class="nav__inner" aria-label="Основная навигация">
-      <a href="#" class="nav__name">О. В. Захарова</a>
+      <a href="/" class="nav__name">О. В. Захарова</a>
       <button class="nav__burger" aria-label="Меню" aria-expanded="false">
         <span></span>
       </button>
@@ -547,8 +570,11 @@
     <!-- Hero -->
     <section class="hero container" id="hero">
       <div class="hero__photo">
-        <img src="photo.jpg" alt="Ольга Владимировна Захарова"
-             onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+        <picture>
+          <source srcset="photo.webp" type="image/webp">
+          <img src="photo.jpg" alt="Ольга Владимировна Захарова" width="320" height="320" fetchpriority="high"
+               onerror="this.style.display='none';var p=this.closest('.hero__photo');p.querySelector('.hero__photo-placeholder').style.display='flex';">
+        </picture>
         <span class="hero__photo-placeholder" style="display:none;">ОЗ</span>
       </div>
       <div class="hero__info">
