@@ -11,6 +11,9 @@
 - Вестник ТюмГУ: https://vestnik.utmn.ru/sociology/list-of-authors/110022/
 
 ## Избранные статьи
+- Managing household carbon-footprint practices (Public Administration Issues, 2026): https://doi.org/10.17323/1999-5431-2026-0-2-126-152
+- Advanced education for indigenous peoples in the Arctic (Vestnik TSU, 2026): https://doi.org/10.21684/2411-7897-2026-12-1-124-138
+- Digitalization of environmental decision-making (Springer LNNS, 2026): https://doi.org/10.1007/978-3-032-20582-7_17
 - Social Practices for Climate Mitigation (Sustainability, 2025): https://doi.org/10.3390/su172210053
 - Risk Assessment of Socio-Economic Vulnerability (World, 2025): https://doi.org/10.3390/world6010006
 - GreenRu dataset (Applied Sciences, 2024): https://doi.org/10.3390/app14114466
